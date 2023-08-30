@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit a chapter</title>
+    <link rel="shortcut icon" href="./icons/logo.png" type="image/png">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="container-row">
+                <div class="logo">D.Dunсan</div>
+
+                <div class="header-nav">
+                    <ul>
+                        <li><a href="./index.html">Главная</a></li>
+                        <li><a href="./moduls.html">Учебные модули</a></li>
+                        <li><a href="./chapters.html">Разделы</a></li>
+                    </ul>
+                </div>
+
+                <div class="mobile-header-row">
+                    <button type="button" class="open_mobile-nav">
+                        <img src="./icons/mobile_nav(2).svg" alt="">
+                    </button>
+
+                    <div class="header-btn">
+                        <button class="login">+</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="add-new-section">
+            <div class="container">
+                <div class="add-new-section-header">
+                    <div class="section-text add-new-section-header-text">Редактирование учебного раздела</div>
+                    <form action="">
+                        <button class="add-new-section-btn">
+                            <p>Сохранить</p>
+                        </button>
+                    </form>    
+                </div>
+
+                <div class="add-new-section-name">
+                    <!-- <input type="text" class="section-name" placeholder="Введите название..." value="">
+                    <input type="text" class="section-description" placeholder="Введите описание..."> -->
+                </div>
+
+                <div class="add-new-section-cards">
+                    <div class="add-new-section-cards-text gray">Карточки</div>
+
+                    <ul class="card-list">
+                    </ul>    
+
+                    <div class="card-empty">
+                        <div class="add-card ">
+                            <button class="add-card_btn">
+                                <div>+ ДОБАВИТЬ КАРТОЧКУ</div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="wraper-btn">
+                        <form action="">
+                            <button class="add-new-section-btn">
+                                <p>Сохранить</p>
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/mobile-nav.js"></script>
+    <script src="./js/avatar.js"></script>
+    <script src="./js/edit-chapter.js"></script>
+</body>
+</html>

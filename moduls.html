@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moduls</title>
+    <link rel="shortcut icon" href="./icons/logo.png" type="image/png">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="container-row">
+                <div class="logo">D.Dunсan</div>
+
+                <div class="header-nav">
+                    <ul>
+                        <li><a href="./index.html">Главная</a></li>
+                        <li class="activ-header-li"><a href="./moduls.html">Учебные модули</a></li>
+                        <li><a href="./chapters.html">Разделы</a></li>
+                    </ul>
+                </div>
+
+                <div class="mobile-header-row">
+                    <button type="button" class="open_mobile-nav">
+                        <img src="./icons/mobile_nav(2).svg" alt="">
+                    </button>
+
+                    <div class="header-btn">
+                        <button class="login">+</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <div class="create-new-module">
+        <div class="create-new-module_div">
+            <div class="create-new-module_header">
+                <div class="create-new-module_header-text">Создать новый модуль</div>
+                <button class="create-new-module_header-x"><img src="./icons/x.png" alt=""></button>
+            </div>
+            <input type="text" class="create-new-module_input" placeholder="Введите название">
+            <div class="wraper-btn">
+                <button class="create-new-module_header-btn">Создать</button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="module">
+                    <div class="bibli">Ваша библиотека</div>
+
+                    <div class="modules-header">
+                        <div class="section-text">Учебные модули</div>
+                        <div class="module-tools">
+                            <button class="btn-round light-purple create-module">+</button>
+                        </div>
+                    </div>
+                    
+                    <ul class="modules-list">
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/mobile-nav.js"></script>
+    <script src="./js/avatar.js"></script>
+    <script src="./js/modules.js"></script>
+</body>
+</html>
