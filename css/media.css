@@ -1,0 +1,1168 @@
+
+@media (max-width: 1420px) {
+    /* ____________________________________MODULES___________________________________ */
+    .modules-header {
+        padding-top: 60px;
+    }
+    /* _________________________________///MODULES///___________________________________ */
+}
+
+
+
+
+
+@media (max-width: 1150px) {
+    /* ____________________________________MODULES___________________________________ */
+    .delete-module-card {
+        background-image: url(../icons/greyClose.svg);
+    }
+
+    .edit-module-card {
+        background-image: url(../icons/greyEdit.svg);
+    }
+
+    .module-card:hover::after {
+        content: '';
+        outline: none;
+    }
+
+    .module-card:hover::before {
+        content: '';
+        outline: none;
+    }
+
+    .module-card:hover {
+        outline: none;
+    }
+
+    .module-card:hover .module-title{
+        color: var(--purple);
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .module-card, .chapter-card {
+        min-height: 200px;
+        width: 31.8%;
+    }
+    /* _________________________________///MODULES///___________________________________ */
+
+    /* ___________________________________CHAPTERS___________________________________ */
+
+    .delete-chapter-card {
+        background-image: url(../icons/greyClose.svg);
+    }
+
+    .edit-chapter-card {
+        background-image: url(../icons/greyEdit.svg);
+    }
+
+    .chapter-card:hover::after{
+        content: '';
+    }
+    
+    .chapter-card:hover::before{
+        content: '';
+    }
+
+    .chapter-card:hover .chapter-title{
+        color: var(--iron);
+    }
+
+    .chapter-card:hover {
+        outline: 0;
+    }
+
+    .module-name {
+        font-weight: 600;
+    }
+
+    .btn-round:hover {
+        background-color: var(--purple);
+    }
+    /* ________________________________///CHAPTERS///________________________________ */
+
+
+    .add-new-section-btn:hover {
+        background: var(--dark-purple);
+    }
+
+    .card-empty:hover .add-card_btn{
+        color: var(--dark-purple);
+    }
+
+    .card-empty:hover .add-card {
+        border-bottom: 3px solid var(--dark-purple);
+    }
+
+    .card-empty:hover{
+        outline: none;
+    }
+
+    /* ____________________________________CARDS___________________________________ */
+    .chapters-name {
+        margin-bottom: 80px;
+        margin-top: 60px;
+    }
+    /* _________________________________///CARDS///___________________________________ */
+
+
+    /* _______________________________add-new-section_____________________________________ */
+    .add-new-section-name {
+        margin-top: 40px;
+    }
+
+    .add-new-section-cards {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    .wraper-btn {
+        margin-top: 50px;
+    }
+
+    /* ____________________________///add-new-section///__________________________________ */
+}
+
+
+
+
+
+@media (max-width: 1006px) {
+    /* ____________________________________MODULES___________________________________ */
+    .header-nav {
+        font-weight: 500;
+    }
+
+    .bibli {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .bibli::after {
+        height: 2px;
+    }
+
+    .section-text {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .module-title {
+        font-size: 20px;
+    }
+
+    .modules-header {
+        padding-top: 60px;
+    }
+
+    .header-nav li + li {
+        margin-left: 50px;
+    }
+
+    .module-card, .chapter-card {
+        width: 48.7%;
+    }
+
+    .modules-list .module-card:nth-child(2), .chapters-list li:nth-child(2) {
+        margin-right: 0px;
+    }
+    .modules-list .module-card:nth-child(3), .chapters-list li:nth-child(3)  {
+        margin-right: 22px;
+    }
+    .modules-list .module-card:nth-child(4), .chapters-list li:nth-child(4)  {
+        margin-right: 0px;
+    }
+    .modules-list .module-card:nth-child(6), .chapters-list li:nth-child(6)  {
+        margin-right: 0px;
+    }
+    .modules-list .module-card:nth-child(8), .chapters-list li:nth-child(8)  {
+        margin-right: 0px;
+    }
+    .modules-list .module-card:nth-child(10), .chapters-list li:nth-child(10)  {
+        margin-right: 0px;
+    }
+    .modules-list .module-card:nth-child(12), .chapters-list li:nth-child(12)  {
+        margin-right: 0px;
+    }
+    .modules-list .module-card:nth-child(14), .chapters-list li:nth-child(14)  {
+        margin-right: 0px;
+    }
+    /* _________________________________///MODULES///___________________________________ */
+
+    /* _______________________________CREATE_NEW_MODULE___________________________________ */
+    .create-new-module_div, .edit-module-name_div {
+        width: 80%;
+    }
+
+    .create-new-module_header-text, .edit-module-name_header-text {
+        font-weight: 500;
+    }
+
+    .create-new-module_header-btn, .edit-module-name_header-btn {
+        width: 180px;
+        height: 48px;
+        font-weight: 500;
+    }
+    /* ____________________________///CREATE_NEW_MODULES///___________________________________ */
+
+    /* ______________________________choose-an-avatar-div___________________________________ */
+    .choose-an-avatar-btn {
+        width: 180px;
+        height: 48px;
+        font-weight: 500;
+    }
+
+    .choose-an-avatar_header-text {
+        font-weight: 500;
+    }
+    /* ___________________________///choose-an-avatar-div///___________________________________ */
+
+    /* ___________________________________CHAPTERS___________________________________ */
+    .chapter-title {
+        font-weight: 600;
+    }
+
+    .emptyCh {
+        font-size: 18px;
+    }
+
+    .card-container {
+        padding: 0 25px 40px 25px;
+    }
+
+    .module-sections{
+        padding: 35px 15px 5px 25px;
+    }
+
+    .module-sections li + li {
+        padding-top: 18px;
+    }
+
+    .chapter-description {
+        margin: 0 24px auto 24px;
+    }
+    /* ________________________________///CHAPTERS///________________________________ */
+
+    /* ____________________________________CARDS___________________________________ */
+    .div-interactive-card {
+        width: 85%;
+    }
+    /* _________________________________///CARDS///___________________________________ */
+
+    /* _________________________________EDIT-CHAPTER___________________________________ */
+    .section-text {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    /* ______________________________///EDIT-CHAPTER///___________________________________ */
+
+    /* _______________________________add-new-section_____________________________________ */
+    .add-new-section-name input {
+        font-size: 16px;
+    }
+
+    .card-input  {
+        font-size: 16px;
+    }
+
+    .red-war {
+        font-size: 14px;
+    }
+    /* ____________________________///add-new-section///__________________________________ */
+}
+
+
+
+
+
+
+
+@media (max-width: 896px) {
+    /* ____________________________________MODULES___________________________________ */
+    .header-nav li + li {
+        margin-left: 30px;
+    }
+
+    .module-card, .chapter-card  {
+        width: 48.5%;
+    }
+    /* _________________________________///MODULES///___________________________________ */
+
+    /* ____________________________________CARDS___________________________________ */
+    .btn-arrow {
+        width: 30px;
+    }
+
+    .card-terms {
+        padding: 30px;
+    }
+
+    /* _________________________________///CARDS///___________________________________ */
+
+}
+
+
+
+
+
+
+@media (max-width: 820px) {
+    /* _______________________________add-new-section_____________________________________ */
+    .warning-text {
+        font-size: 14px;
+    }
+    /* ____________________________///add-new-section///__________________________________ */
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 783px) {
+    /* ____________________________________MODULES___________________________________ */
+    .login {
+        height: 50px;
+        width: 50px;
+    }
+
+    .header {
+        align-items: center;
+        height: auto;
+    }
+
+    .header-nav {
+        font-weight: 500;
+    }
+
+    .btn-round {
+        height: 37px;
+        width: 37px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .header-nav li + li {
+        margin-left: 25px;
+    }
+
+    .header-nav li {
+        font-size: 16px;
+    }
+
+    .module-card, .chapter-card  {
+        width: 48%;
+    }
+    .module-title {
+        font-size: 18px;
+    }
+
+    .module-sections-text {
+        font-size: 14px;
+    }
+
+    .module-sections li, .chapter-description {
+        font-size: 14px;
+    }
+
+    .bibli {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+
+    .section-text {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    /* _________________________________///MODULES///___________________________________ */
+
+    /* _______________________________CREATE_NEW_MODULE___________________________________ */
+    .create-new-module_header-text, .edit-module-name_header-text {
+        font-size: 19px;
+    }
+
+    .create-new-module_header-x, .edit-module-name_header-x {
+        height: 21px;
+        width: 21px;
+    }
+    /* ____________________________///CREATE_NEW_MODULES///___________________________________ */
+
+    /* ______________________________choose-an-avatar-div___________________________________ */
+    .avatar {
+        height: 50px;
+        width: 50px;
+    }
+
+    .avatar-list li {
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .avatar-div {
+        width: 370px;
+    }
+
+    .choose-an-avatar_header-x {
+        height: 21px;
+        width: 21px;
+    }
+
+    .choose-an-avatar_header-text {
+        font-size: 19px;
+    }
+    /* ___________________________///choose-an-avatar-div///___________________________________ */
+
+    /* ___________________________________CHAPTERS___________________________________ */
+    .chapter-title {
+        font-size: 18px;
+    }
+
+    .module-name {
+        font-size: 21px;
+    }
+
+    .emptyCh {
+        font-size: 18px;
+    }
+
+    .module-header {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    .module-header::after {
+        top: 110px;
+        width: 40%;
+    }
+    
+    /* ________________________________///CHAPTERS///________________________________ */
+
+    /* ____________________________________CARDS___________________________________ */
+    .centerBtn {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .btn-flip {
+        width: 160px;
+        height: 45px;
+    }
+
+    .terms-header p {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .quantity {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .terms-input {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    /* _________________________________///CARDS///___________________________________ */
+
+    /* ____________________________________EDIT-CHAPTER___________________________________ */
+    .add-card_btn {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .add-card {
+        margin: 0 auto;
+        padding-top: 55px;
+        padding-bottom: 6px;
+        width: 350px;
+        text-align: center;
+        border-bottom: 2px solid var(--dark-purple);
+    }
+
+    .card-empty {
+        width: 100%;
+        min-height: 130px;
+        left: 562px;
+        top: 459px;
+        background: #FFFFFF;
+        box-shadow: 0px 9px 28px -6px rgba(0, 0, 0, 0.25);
+        border-radius: 9px;
+    }
+
+    .gray {
+        font-weight: 500;
+        font-size: 18px;
+    }
+    /* _________________________________///EDIT-CHAPTER///___________________________________ */
+
+
+    /* _______________________________CREATE_NEW_MODULE___________________________________ */
+    .add-new-section-btn p {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .add-new-section-btn {
+        width: 160px;
+        height: 45px;
+    }
+    /* ____________________________///CREATE_NEW_MODULES///___________________________________ */
+
+    .add-new-section-header-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .emptyEl {
+        font-weight: 400;
+        font-size: 18px;
+        padding: 50px;
+    }
+}
+
+
+@media (max-width: 720px) {
+    .div-interactive-card p {
+        line-height: 22px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+@media (max-width: 670px) {
+    /* ____________________________________MODULES___________________________________ */
+    .header-nav {
+        display: none;
+    }
+
+    .open_mobile-nav {
+        display: flex;
+        left: 10px;
+    }
+    /* _________________________________///MODULES///___________________________________ */
+
+
+    /* ___________________________________CHAPTERS___________________________________ */
+    .module-name {
+        font-size: 19px;
+        font-weight: 500;
+    }
+    /* ________________________________///CHAPTERS///________________________________ */
+
+
+    /* ____________________________________CARDS___________________________________ */
+    .btn-arrow {
+        width: 20px;
+    }
+
+    .chapters-name {
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+
+    .quantity {
+        margin-top: 35px;
+    }
+
+    /* _________________________________///CARDS///___________________________________ */
+
+    /* ____________________________________CARDS___________________________________ */
+    .card-terms {
+        display: block;
+        text-align: center;
+    }
+
+    .term {
+        padding-bottom: 25px;
+    }
+
+    .terms-input {
+        width: 100%;
+    }
+
+    .term {
+        padding-right: 0;
+    }
+
+    /* _________________________________///CARDS///___________________________________ */
+
+    /* _______________________________add-new-section_____________________________________ */
+    .card-content {
+        display: block;
+        text-align: center;
+    }
+
+    .card-content input:nth-child(1) {
+        margin: 0 30px 0 30px;
+    }
+
+    .card-definition {
+        margin: 20px 30px 40px 30px !important;
+    }
+
+    .add-new-section-name input {
+        height: 40px;
+    }
+
+    .section-description {
+        margin-top: 16px;
+    }
+
+    .add-new-section-cards {
+        margin-top: 40px
+    }
+
+    .add-new-section {
+        padding-top: 40px;
+    }
+
+    .wraper-btn {
+        margin-top: 30px;
+    }
+
+    .card-list {
+        margin-bottom: 30px;
+    }
+
+    .add-new-section-cards-text {
+        margin-bottom: 20px;
+    }
+
+    .red-war {
+        padding: 5px 0 10px 0px;
+    }
+    /* ____________________________///add-new-section///__________________________________ */
+
+    .create-new-module_header-btn, .edit-module-name_header-btn {
+        margin-top: 10px;
+    }
+
+    .emptyList span {
+        font-size: 18px;
+    }
+
+    .emptyEl {
+        margin-top: 60px
+    }
+}
+
+@media (max-width: 630px) {
+    .div-interactive-card p {
+        /* font-size: 18px;
+        line-height: 22px; */
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    /* ____________________________________MODULES___________________________________ */
+    .modules-list, .chapters-list {
+        display: grid;
+    }
+
+    .module-card, .chapter-card  {
+        width: 100%;
+    }
+    /* _________________________________///MODULES///___________________________________ */
+
+
+
+    /* __________________________________CHAPTERS__________________________________ */
+    .edit-chapter-card {
+        left: 82%;
+    }
+    /* ________________________________///CHAPTERS///________________________________ */
+
+    /* ___________________________________CARDS__________________________________ */
+    .chapters-name {
+        margin-bottom: 45px;
+        margin-top: 30px;
+    }
+
+    .quantity {
+        margin-top: 25px;
+    }
+
+    .div-interactive-card {
+        height: 400px;
+    }
+
+    .btn-flip {
+        width: 140px;
+        height: 45px;
+    }
+
+    .centerBtn {
+        font-size: 18px;
+    }
+
+    .terms-header {
+        margin-top: 45px;
+        margin-bottom: 50px;
+    }
+
+    .btn-flip {
+        width: 140px;
+        height: 45px;
+    }
+
+    /* ________________________________///CARDS///________________________________ */
+
+    /* _______________________________add-new-section_____________________________________ */
+    .add-new-section-btn {
+        width: 140px;
+        height: 45px;
+    }
+
+    .add-new-section-btn p {
+        font-size: 18px;
+    }
+
+    .add-new-section-header-text {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .gray{
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .create-new-module_div, .edit-module-name_div {
+        padding: 40px 40px 20px 40px
+    }
+    /* ____________________________///add-new-section///__________________________________ */
+
+    .emptyList span {
+        font-size: 16px;
+    }
+
+    .emptyList {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 550px) {
+    .div-interactive-card p {
+    font-size: 18px;
+    line-height: 20px;
+    }
+}
+
+
+
+@media (max-width: 515px) {
+    /* _______________________________CREATE_NEW_MODULE___________________________________ */
+    .create-new-module_header-text, .edit-module-name_header-text {
+        padding-right: 30px;
+    }
+
+    .create-new-module_input, .edit-module-name_input {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .create-new-module_div, .edit-module-name_div {
+        width: 90%;
+    }
+    /* ____________________________///CREATE_NEW_MODULES///___________________________________ */
+
+    /* ______________________________choose-an-avatar-div___________________________________ */
+    .choose-an-avatar-div{
+        padding: 30px 30px 30px 30px;
+    }
+
+    /* ___________________________///choose-an-avatar-div///___________________________________ */
+
+    /* __________________________________CHAPTERS__________________________________ */
+    .edit-chapter-card {
+        left: 78%;
+    }
+    /* ________________________________///CHAPTERS///________________________________ */
+
+    /* ___________________________________CARDS__________________________________ */
+    .terms-header p {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .section-text {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .chapters-name {
+        margin-bottom: 35px;
+        margin-top: 25px;
+        padding-bottom: 6px;
+        border-bottom: 2px solid var(--light-grey);
+    }
+
+    .quantity {
+        margin-top: 20px;
+    }
+
+
+    .terms-header {
+        margin-top: 45px;
+        margin-bottom: 50px;
+    }
+
+    .div-interactive-card {
+        height: 350px;
+    }
+
+    .div-interactive-card p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .terms-input {
+        line-height: 16px;
+    }
+ 
+    /* ________________________________///CARDS///________________________________ */
+
+    /* _______________________________add-new-section_____________________________________ */
+    .add-card_btn {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .add-card {
+        margin: 0 auto;
+        padding-top: 55px;
+        padding-bottom: 6px;
+        width: 250px;
+        text-align: center;
+        border-bottom: 1.5px solid var(--dark-purple);
+    }
+
+    .add-new-section-header-text {
+        font-size: 16px;
+        font-weight: 500;
+        padding-right: 30px;
+    }
+
+    .add-new-section-name input {
+        font-size: 14px;
+    }
+
+    .card-input {
+        font-size: 14px;
+        min-height: 30px;
+    }
+
+    .card-definition {
+        margin: 20px 30px 20px 30px !important;
+    }
+
+    .card {
+        min-height: 155px;
+    }
+    /* ___________________________///add-new-section///____________________________ */
+
+    .emptyEl {
+        font-size: 16px;
+    } 
+}
+
+
+
+
+@media (max-width: 450px) {
+    .div-interactive-card p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .terms-input {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .result button {
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 450px) {
+    /* _______________________________CREATE_NEW_MODULE___________________________________ */
+    .create-new-module_header-btn, .edit-module-name_header-btn {
+        width: 100%;
+    }
+
+    .create-new-module_header-text, .edit-module-name_header-text {
+        font-size: 16px;
+    }
+
+    .create-new-module_header-x, .edit-module-name_header-x {
+        height: 18px;
+        width: 18px;
+    }
+    /* ____________________________///CREATE_NEW_MODULES///___________________________________ */
+
+    /* ______________________________choose-an-avatar-div___________________________________ */
+    .choose-an-avatar_header-x {
+        height: 18px;
+        width: 18px;
+    }
+
+    .choose-an-avatar_header-text {
+        font-size: 16px;
+    }
+
+    .avatar-div {
+        width: 330px;
+    }
+
+    .avatar-list li {
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+
+    .choose-an-avatar-btn {
+        width: 100%;
+    }
+
+    .choose-an-avatar-btn {
+        font-weight: 500;
+        font-size: 18px;
+    }
+    /* ___________________________///choose-an-avatar-div///___________________________________ */
+
+    /* __________________________________CHAPTERS__________________________________ */
+    .module-name {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .chapter-title {
+        font-size: 16px;
+    }
+
+    .num-cards {
+        font-weight: 500;
+    }
+
+    .emptyCh {
+        font-size: 14px;
+        padding: 40px;
+    }
+    /* ________________________________///CHAPTERS///________________________________ */
+
+    /* _______________________________add-new-section_____________________________________ */
+    .warning-text {
+        font-size: 12px;
+    }
+
+    .warning {
+        padding: 20px
+    }
+
+    .warning-div{
+        padding-bottom: 30px;
+    }
+
+    .add-new-section-cards-text {
+        margin-bottom: 0;
+    }
+    /* ____________________________///add-new-section///__________________________________ */
+
+    .emptyList span {
+        font-weight: 300;
+    }
+
+    .emptyEl {
+        padding: 40px
+    }
+
+    /* ______________________________Main___________________________________ */
+        .welcome, .manual {
+            font-weight: 500;
+            font-size: 18px; 
+        }
+
+        .introductory-text_description {
+            font-size: 14px;
+        }
+
+        .step-description {
+            font-size: 14px;
+        }
+
+    /* ___________________________///Main///___________________________________ */
+}
+
+@media (max-width: 430px) {
+    .div-interactive-card p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .result button {
+        font-size: 14px;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    /* ______________________________choose-an-avatar-div___________________________________ */
+    .choose-an-avatar-div {
+        width: 80%;
+    }
+
+    .avatar-list li {
+        margin-right: 40px;
+        margin-bottom: 15px;
+    }
+
+    .avatar-div {
+        width: 140px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .avatar-list li:nth-child(2), 
+    .avatar-list li:nth-child(4), 
+    .avatar-list li:nth-child(6), 
+    .avatar-list li:nth-child(8),
+    .avatar-list li:nth-child(10) {
+        margin-right: 0px;
+    } 
+
+    /* ___________________________///choose-an-avatar-div///___________________________________ */
+}
+
+
+
+@media (max-width: 365px) {
+    /* _______________________________CREATE_NEW_MODULE___________________________________ */
+    .create-new-module_input, .edit-module-name_input {
+        padding-left: 10px;
+    }
+    /* ____________________________///CREATE_NEW_MODULES///___________________________________ */
+
+    /* __________________________________CHAPTERS__________________________________ */
+    .edit-chapter-card {
+        left: 72%;
+    }
+
+    .delete-chapter-card {
+        left: 86%;
+    }
+    /* ________________________________///CHAPTERS///________________________________ */
+
+    /* ___________________________________CARDS__________________________________ */
+    .terms-header p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .terms-input {
+        font-size: 14px;
+    }
+
+    .card-terms {
+        padding: 20px;
+    }
+
+    .quantity {
+        font-size: 14px;
+    }
+
+    .div-interactive-card p {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .btn-flip, .add-new-section-btn {
+        width: 120px;
+        height: 35px;
+    }
+
+    .centerBtn, .add-new-section-btn p {
+        font-size: 16px
+    }
+    /* ________________________________///CARDS///________________________________ */
+
+    /* _______________________________add-new-section_____________________________________ */
+    .add-new-section-header-text {
+        font-size: 14px;
+    }
+
+    .create-new-module_div, .edit-module-name_div {
+        padding: 30px 30px 20px 30px
+    }
+    /* ____________________________///add-new-section///__________________________________ */
+
+
+}
+
+
+@media (max-width: 355px) {
+    /* __________________________________CHAPTERS__________________________________ */
+    .module-header::after {
+        top: 115px;
+        width: 60%;
+    }
+
+    .chapter-title {
+        padding-bottom: 15px;
+    }
+
+    .chapter-description {
+        margin-top: 15px;
+    }
+
+    .num-cards {
+        margin-bottom: 45px;
+    }
+    /* ________________________________///CHAPTERS///________________________________ */
+
+    /* ____________________________________MODULES___________________________________ */
+    .delete-module-card {
+        position: absolute;
+        float: right;
+        bottom: 15px;
+        left: 85%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .edit-module-card {
+        position: absolute;
+        float: right;
+        bottom: 15px;
+        left: 72%;
+        width: 20px;
+        height: 20px;
+    }
+    /* _________________________________///MODULES///___________________________________ */
+}
